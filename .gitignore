@@ -1,0 +1,35 @@
+# Ignorar pastas de build
+bin/
+obj/
+
+# Ignorar caches e temporários
+*.cache
+*.log
+*.tmp
+*.temp
+
+# Ignorar executáveis e DLLs
+*.exe
+*.dll
+*.pdb
+
+# Ignorar pacotes NuGet
+*.nupkg
+*.nuspec
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+project.nuget.cache
+
+# Ignorar configurações locais de IDE
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+
+# Ignorar arquivos de backup do VS
+*.bak
+*.backup
+*.dbmdl
