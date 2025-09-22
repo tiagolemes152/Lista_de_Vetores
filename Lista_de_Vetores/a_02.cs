@@ -1,5 +1,4 @@
-//Escreva um programa que leia ou gere um vetor de N elementosinteiros. A seguir, crie uma função que receba
-//esse vetor e conte quantos valores impares existem no vetor. Retorne a quantidade de impares.
+
 using System;
 class Program
 {
@@ -12,8 +11,7 @@ class Program
         Random rand = new Random();
         for (int i = 0; i < n; i++)
         {
-            vetor[i] = rand.Next(1, 100); // Gera números aleatórios entre 1 e 99
-        }
+            vetor[i] = rand.Next(1, 100); 
 
         Console.WriteLine("Vetor gerado: " + string.Join(", ", vetor));
 
