@@ -1,6 +1,6 @@
-
 using System;
-class Program
+
+class a_02
 {
     static void Main(string[] args)
     {
@@ -11,7 +11,8 @@ class Program
         Random rand = new Random();
         for (int i = 0; i < n; i++)
         {
-            vetor[i] = rand.Next(1, 100); 
+            vetor[i] = rand.Next(1, 100);
+        }
 
         Console.WriteLine("Vetor gerado: " + string.Join(", ", vetor));
 
